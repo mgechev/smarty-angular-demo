@@ -11,19 +11,21 @@ import { KidComponent } from './kid.component';
     RouterModule.forChild([
       {
         path: '',
-        component: KidComponent
-      },
-      {
-        loadChildren: './home/home.module#HomeModule',
-        path: 'home'
-      },
-      {
-        loadChildren: './earn/earn.module#EarnModule',
-        path: 'earn'
-      },
-      {
-        loadChildren: './rewards/rewards.module#RewardsModule',
-        path: 'rewards'
+        component: KidComponent,
+        children: [
+          {
+            loadChildren: './home/home.module#HomeModule',
+            path: 'home'
+          },
+          {
+            loadChildren: './earn/earn.module#EarnModule',
+            path: 'earn'
+          },
+          {
+            loadChildren: './rewards/rewards.module#RewardsModule',
+            path: 'rewards'
+          }
+        ]
       }
     ])
   ],

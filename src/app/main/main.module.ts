@@ -17,11 +17,21 @@ import { RewardsComponent } from './kid/rewards/rewards.component';
     RouterModule.forChild([
       {
         path: '',
-        component: MainComponent
-      },
-      {
-        path: 'kid',
-        loadChildren: './kid/kid.module#KidModule'
+        component: MainComponent,
+        children: [
+          {
+            path: 'kid',
+            loadChildren: './kid/kid.module#KidModule'
+          },
+          {
+            path: 'parent',
+            loadChildren: './parent/parent.module#ParentModule'
+          },
+          {
+            path: 'settings',
+            loadChildren: './settings/settings.module#ParentModule'
+          }
+        ]
       }
     ])
   ],
