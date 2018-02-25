@@ -20,7 +20,15 @@ import { BadgesComponent } from './badges/badges.component';
         component: GamesComponent
       },
       {
+        path: 'games',
+        component: GamesComponent
+      },
+      {
         path: 'badges/:id',
+        component: BadgesComponent
+      },
+      {
+        path: 'badges',
         component: BadgesComponent
       },
       {

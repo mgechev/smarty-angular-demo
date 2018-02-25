@@ -8,6 +8,8 @@ import { PersonalizeComponent } from './personalize/personalize.component';
 import { RewardComponent } from './reward/reward.component';
 import { InfoComponent } from './info/info.component';
 import { VerifyComponent } from './verify/verify.component';
+import { HomeComponent } from './home/home.component';
+import { FaqComponent } from './faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { VerifyComponent } from './verify/verify.component';
     PersonalizeComponent,
     RewardComponent,
     InfoComponent,
-    VerifyComponent
+    VerifyComponent,
+    HomeComponent,
+    FaqComponent
   ],
   imports: [
     CommonModule,
@@ -35,6 +39,18 @@ import { VerifyComponent } from './verify/verify.component';
       },
       {
         path: 'reward',
+        component: RewardComponent
+      },
+      {
+        path: 'reward/:id',
+        component: RewardComponent
+      },
+      {
+        path: 'home',
+        component: PersonalizeComponent
+      },
+      {
+        path: 'faq',
         component: RewardComponent
       },
       {
