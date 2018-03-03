@@ -17,39 +17,41 @@ import { FaqComponent } from './faq/faq.component';
     RouterModule.forChild([
       {
         path: '',
-        component: ParentComponent
-      },
-      {
-        path: 'settings',
-        loadChildren: './settings/settings.module#SettingsModule'
-      },
-      {
-        path: 'personalize',
-        loadChildren: './personalize/personalize.module#PersonalizeModule'
-      },
-      {
-        path: 'reward',
-        loadChildren: './reward/reward.module#RewardModule'
-      },
-      {
-        path: 'reward/:id',
-        loadChildren: './reward/reward.module#RewardModule'
-      },
-      {
-        path: 'home',
-        loadChildren: './parent-home/parent-home.module#ParentHomeModule'
-      },
-      {
-        path: 'faq',
-        loadChildren: './faq/faq.module#FaqModule'
-      },
-      {
-        path: 'info',
-        loadChildren: './info/info.module#InfoModule'
-      },
-      {
-        path: 'verify',
-        loadChildren: './verify/verify.module#VerifyModule'
+        component: ParentComponent,
+        children: [
+          {
+            path: 'settings',
+            loadChildren: './settings/settings.module#SettingsModule'
+          },
+          {
+            path: 'personalize',
+            loadChildren: './personalize/personalize.module#PersonalizeModule'
+          },
+          {
+            path: 'reward',
+            loadChildren: './reward/reward.module#RewardModule'
+          },
+          {
+            path: 'reward/:id',
+            loadChildren: './reward/reward.module#RewardModule'
+          },
+          {
+            path: 'home',
+            loadChildren: './parent-home/parent-home.module#ParentHomeModule'
+          },
+          {
+            path: 'faq',
+            loadChildren: './faq/faq.module#FaqModule'
+          },
+          {
+            path: 'info',
+            loadChildren: './info/info.module#InfoModule'
+          },
+          {
+            path: 'verify',
+            loadChildren: './verify/verify.module#VerifyModule'
+          }
+        ]
       }
     ])
   ],

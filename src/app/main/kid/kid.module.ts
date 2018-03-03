@@ -13,25 +13,25 @@ import { ReportsComponent } from './reports/reports.component';
     CommonModule,
     RouterModule.forChild([
       {
-        path: 'question/:standard/:question/:id',
-        component: QuestionComponent
-      },
-      {
-        path: 'question/:standard/:question',
-        component: QuestionComponent
-      },
-      {
-        path: 'friends',
-        component: FriendsComponent
-      },
-      {
-        path: 'reports',
-        component: ReportsComponent
-      },
-      {
         path: '',
         component: KidComponent,
         children: [
+          {
+            path: 'question/:standard/:question/:id',
+            loadChildren: './question/question.module#QuestionModule'
+          },
+          {
+            path: 'question/:standard/:question',
+            loadChildren: './question/question.module#QuestionModule'
+          },
+          {
+            path: 'friends',
+            loadChildren: './friends/friends.module#FriendsModule'
+          },
+          {
+            path: 'reports',
+            loadChildren: './reports/reports.module#ReportsModule'
+          },
           {
             loadChildren: './home/home.module#HomeModule',
             path: 'home'
