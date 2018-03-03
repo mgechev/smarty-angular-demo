@@ -8,20 +8,10 @@ import { PersonalizeComponent } from './personalize/personalize.component';
 import { RewardComponent } from './reward/reward.component';
 import { InfoComponent } from './info/info.component';
 import { VerifyComponent } from './verify/verify.component';
-import { HomeComponent } from './home/home.component';
 import { FaqComponent } from './faq/faq.component';
 
 @NgModule({
-  declarations: [
-    ParentComponent,
-    SettingsComponent,
-    PersonalizeComponent,
-    RewardComponent,
-    InfoComponent,
-    VerifyComponent,
-    HomeComponent,
-    FaqComponent
-  ],
+  declarations: [ParentComponent],
   imports: [
     CommonModule,
     RouterModule.forChild([
@@ -31,35 +21,35 @@ import { FaqComponent } from './faq/faq.component';
       },
       {
         path: 'settings',
-        component: SettingsComponent
+        loadChildren: './settings/settings.module#SettingsModule'
       },
       {
         path: 'personalize',
-        component: PersonalizeComponent
+        loadChildren: './personalize/personalize.module#PersonalizeModule'
       },
       {
         path: 'reward',
-        component: RewardComponent
+        loadChildren: './reward/reward.module#RewardModule'
       },
       {
         path: 'reward/:id',
-        component: RewardComponent
+        loadChildren: './reward/reward.module#RewardModule'
       },
       {
         path: 'home',
-        component: PersonalizeComponent
+        loadChildren: './parent-home/parent-home.module#ParentHomeModule'
       },
       {
         path: 'faq',
-        component: RewardComponent
+        loadChildren: './faq/faq.module#FaqModule'
       },
       {
         path: 'info',
-        component: InfoComponent
+        loadChildren: './info/info.module#InfoModule'
       },
       {
         path: 'verify',
-        component: VerifyComponent
+        loadChildren: './verify/verify.module#VerifyModule'
       }
     ])
   ],

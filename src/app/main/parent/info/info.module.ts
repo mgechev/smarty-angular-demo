@@ -2,19 +2,19 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 import { CommonModule } from '@angular/common';
-import { SettingsComponent } from './settings.component';
+import { InfoComponent } from './info.component';
 
 @NgModule({
-  declarations: [SettingsComponent],
+  declarations: [InfoComponent],
   imports: [
     CommonModule,
     RouterModule.forChild([
       {
         path: '',
-        component: SettingsComponent
+        component: InfoComponent
       }
     ])
   ],
-  bootstrap: [SettingsComponent]
+  bootstrap: [InfoComponent]
 })
-export class ParentModule {}
+export class InfoModule {}

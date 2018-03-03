@@ -5,7 +5,6 @@ import { MainComponent } from './main.component';
 import { CommonModule } from '@angular/common';
 import { KidComponent } from './kid/kid.component';
 import { ParentComponent } from './parent/parent.component';
-import { SettingsComponent } from './settings/settings.component';
 import { EarnComponent } from './kid/earn/earn.component';
 import { HomeComponent } from './kid/home/home.component';
 import { RewardsComponent } from './kid/rewards/rewards.component';
@@ -26,10 +25,6 @@ import { RewardsComponent } from './kid/rewards/rewards.component';
           {
             path: 'parent',
             loadChildren: './parent/parent.module#ParentModule'
-          },
-          {
-            path: 'settings',
-            loadChildren: './settings/settings.module#ParentModule'
           }
         ]
       }
