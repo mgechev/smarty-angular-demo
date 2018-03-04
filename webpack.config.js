@@ -23,22 +23,43 @@ const { AngularCompilerPlugin } = require('@ngtools/webpack');
 
 const webpack = require('webpack');
 
+// const clusters = {
+//   a: [
+//     '/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/main.module.ts',
+//     '/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/kid/home/home.module.ts',
+//     '/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/parent/faq/faq.module.ts',
+//     '/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/parent/verify/verify.module.ts',
+//     '/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/parent/settings/settings.module.ts',
+//     '/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/kid/friends/friends.module.ts',
+//     '/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/kid/reports/reports.module.ts',
+//     '/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/kid/earn/earn.module.ts',
+//     '/Users/mgechev/Projects/smarty-demo-ejected/src/app/intro/intro.module.ts',
+//     '/Users/mgechev/Projects/smarty-demo-ejected/src/app/app.module.ts'
+//   ],
+//   b: ['/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/kid/rewards/rewards.module.ts'],
+//   c: ['/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/parent/parent-home/parent-home.module.ts'],
+//   d: ['/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/kid/question/question.module.ts']
+// };
+
+// -n 10
 const clusters = {
   a: [
-    '/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/main.module.ts',
-    '/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/kid/home/home.module.ts',
-    '/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/parent/faq/faq.module.ts',
-    '/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/parent/verify/verify.module.ts',
-    '/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/parent/settings/settings.module.ts',
-    '/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/kid/friends/friends.module.ts',
-    '/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/kid/reports/reports.module.ts',
-    '/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/kid/earn/earn.module.ts',
-    '/Users/mgechev/Projects/smarty-demo-ejected/src/app/intro/intro.module.ts',
-    '/Users/mgechev/Projects/smarty-demo-ejected/src/app/app.module.ts'
+    '/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts',
+    '/Users/mgechev/Projects/smarty-demo/src/app/app.module.ts'
   ],
-  b: ['/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/kid/rewards/rewards.module.ts'],
-  c: ['/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/parent/parent-home/parent-home.module.ts'],
-  d: ['/Users/mgechev/Projects/smarty-demo-ejected/src/app/main/kid/question/question.module.ts']
+  b: [
+    '/Users/mgechev/Projects/smarty-demo/src/app/main/kid/earn/earn.module.ts',
+    '/Users/mgechev/Projects/smarty-demo/src/app/main/kid/home/home.module.ts'
+  ],
+  c: ['/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts'],
+  d: ['/Users/mgechev/Projects/smarty-demo/src/app/main/parent/parent-home/parent-home.module.ts'],
+  e: ['/Users/mgechev/Projects/smarty-demo/src/app/main/kid/question/question.module.ts'],
+  f: ['/Users/mgechev/Projects/smarty-demo/src/app/main/kid/reports/reports.module.ts'],
+  g: ['/Users/mgechev/Projects/smarty-demo/src/app/main/parent/settings/settings.module.ts'],
+  h: ['/Users/mgechev/Projects/smarty-demo/src/app/main/parent/verify/verify.module.ts'],
+  i: ['/Users/mgechev/Projects/smarty-demo/src/app/main/parent/faq/faq.module.ts'],
+  j: ['/Users/mgechev/Projects/smarty-demo/src/app/main/kid/friends/friends.module.ts'],
+  k: ['/Users/mgechev/Projects/smarty-demo/src/app/main/main.module.ts']
 };
 
 class ClusterizeChunks extends webpack.NamedChunksPlugin {
