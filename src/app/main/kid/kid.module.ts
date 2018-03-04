@@ -8,7 +8,7 @@ import { FriendsComponent } from './friends/friends.component';
 import { ReportsComponent } from './reports/reports.component';
 
 @NgModule({
-  declarations: [KidComponent, QuestionComponent, FriendsComponent, ReportsComponent],
+  declarations: [KidComponent],
   imports: [
     CommonModule,
     RouterModule.forChild([
