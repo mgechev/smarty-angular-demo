@@ -1,0 +1,718 @@
+{
+  "": [
+    {
+      "route": "/intro/parent",
+      "probability": 0.42729970326409494,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/home",
+      "probability": 0.11572700296735905,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/home/home.module.ts"
+    },
+    {
+      "route": "/intro",
+      "probability": 0.10682492581602374,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/question/:standard/:question/:id",
+      "probability": 0.07418397626112759,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/question/question.module.ts"
+    },
+    {
+      "route": "/intro/parent/personalize",
+      "probability": 0.06824925816023739,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/intro/parent/info",
+      "probability": 0.04451038575667656,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/parent/verify",
+      "probability": 0.032640949554896145,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/parent/verify/verify.module.ts"
+    },
+    {
+      "route": "/main/parent/settings",
+      "probability": 0.02967359050445104,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/parent/settings/settings.module.ts"
+    },
+    {
+      "route": "/intro/login",
+      "probability": 0.026706231454005934,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/earn",
+      "probability": 0.020771513353115726,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/earn/earn.module.ts"
+    },
+    {
+      "route": "/main/kid/rewards/games",
+      "probability": 0.01483679525222552,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    },
+    {
+      "route": "/main/kid/question/:standard/:question",
+      "probability": 0.011869436201780416,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/question/question.module.ts"
+    },
+    {
+      "route": "/main/parent/home",
+      "probability": 0.008902077151335312,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/parent/parent-home/parent-home.module.ts"
+    },
+    {
+      "route": "/main/kid/reports",
+      "probability": 0.005934718100890208,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/reports/reports.module.ts"
+    },
+    {
+      "route": "/intro/parent/reward",
+      "probability": 0.005934718100890208,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/parent/faq",
+      "probability": 0.002967359050445104,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/parent/faq/faq.module.ts"
+    },
+    {
+      "route": "/main/kid/rewards/badges/:id",
+      "probability": 0.002967359050445104,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    }
+  ],
+  "/intro": [
+    {
+      "route": "",
+      "probability": 0.45394736842105265
+    },
+    {
+      "route": "/main/kid/question/:standard/:question/:id",
+      "probability": 0.13157894736842105,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/question/question.module.ts"
+    },
+    {
+      "route": "/intro/parent",
+      "probability": 0.11842105263157894,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/home",
+      "probability": 0.10526315789473684,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/home/home.module.ts"
+    },
+    {
+      "route": "/main/kid/question/:standard/:question",
+      "probability": 0.046052631578947366,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/question/question.module.ts"
+    },
+    {
+      "route": "/main/kid/earn",
+      "probability": 0.03289473684210526,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/earn/earn.module.ts"
+    },
+    {
+      "route": "/main/kid/rewards/games",
+      "probability": 0.019736842105263157,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    },
+    {
+      "route": "/intro/login",
+      "probability": 0.013157894736842105,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/parent/settings",
+      "probability": 0.013157894736842105,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/parent/settings/settings.module.ts"
+    },
+    {
+      "route": "/intro/parent/info",
+      "probability": 0.013157894736842105,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/intro/parent/personalize",
+      "probability": 0.013157894736842105,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/friends",
+      "probability": 0.006578947368421052,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/friends/friends.module.ts"
+    },
+    {
+      "route": "/intro/parent/reward/:id",
+      "probability": 0.006578947368421052,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/reports",
+      "probability": 0.006578947368421052,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/reports/reports.module.ts"
+    },
+    {
+      "route": "/main/kid/rewards/games/:id",
+      "probability": 0.006578947368421052,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    },
+    {
+      "route": "/main/parent/home",
+      "probability": 0.006578947368421052,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/parent/parent-home/parent-home.module.ts"
+    },
+    {
+      "route": "/intro/parent/reward",
+      "probability": 0.006578947368421052,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    }
+  ],
+  "/intro/parent": [
+    {
+      "route": "/intro",
+      "probability": 0.3218390804597701,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "",
+      "probability": 0.19540229885057472
+    },
+    {
+      "route": "/main/kid/question/:standard/:question/:id",
+      "probability": 0.11494252873563218,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/question/question.module.ts"
+    },
+    {
+      "route": "/intro/parent/personalize",
+      "probability": 0.10344827586206896,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/intro/parent/info",
+      "probability": 0.08045977011494253,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/home",
+      "probability": 0.05747126436781609,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/home/home.module.ts"
+    },
+    {
+      "route": "/main/parent/settings",
+      "probability": 0.034482758620689655,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/parent/settings/settings.module.ts"
+    },
+    {
+      "route": "/main/kid/earn",
+      "probability": 0.034482758620689655,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/earn/earn.module.ts"
+    },
+    {
+      "route": "/main/kid/rewards/games",
+      "probability": 0.011494252873563218,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    },
+    {
+      "route": "/main/kid/question/:standard/:question",
+      "probability": 0.011494252873563218,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/question/question.module.ts"
+    },
+    {
+      "route": "/intro/parent/reward",
+      "probability": 0.011494252873563218,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/rewards/badges",
+      "probability": 0.011494252873563218,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    },
+    {
+      "route": "/intro/parent/reward/:id",
+      "probability": 0.011494252873563218,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    }
+  ],
+  "/main/kid/home": [
+    {
+      "route": "",
+      "probability": 0.26
+    },
+    {
+      "route": "/main/kid/question/:standard/:question/:id",
+      "probability": 0.16,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/question/question.module.ts"
+    },
+    {
+      "route": "/main/kid/earn",
+      "probability": 0.14,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/earn/earn.module.ts"
+    },
+    {
+      "route": "/intro/parent",
+      "probability": 0.06,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/rewards/games",
+      "probability": 0.06,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    },
+    {
+      "route": "/main/kid/rewards/games/:id",
+      "probability": 0.06,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    },
+    {
+      "route": "/main/kid/reports",
+      "probability": 0.04,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/reports/reports.module.ts"
+    },
+    {
+      "route": "/main/parent/home",
+      "probability": 0.04,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/parent/parent-home/parent-home.module.ts"
+    },
+    {
+      "route": "/intro",
+      "probability": 0.04,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/friends",
+      "probability": 0.04,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/friends/friends.module.ts"
+    },
+    {
+      "route": "/main/kid/question/:standard/:question",
+      "probability": 0.04,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/question/question.module.ts"
+    },
+    {
+      "route": "/intro/parent/reward/:id",
+      "probability": 0.02,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/intro/parent/info",
+      "probability": 0.02,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/parent/settings",
+      "probability": 0.02,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/parent/settings/settings.module.ts"
+    }
+  ],
+  "/intro/parent/info": [
+    {
+      "route": "/intro/parent/personalize",
+      "probability": 0.5555555555555556,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "",
+      "probability": 0.2222222222222222
+    },
+    {
+      "route": "/intro",
+      "probability": 0.1111111111111111,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/intro/parent/reward",
+      "probability": 0.1111111111111111,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    }
+  ],
+  "/main/kid/earn": [
+    {
+      "route": "",
+      "probability": 0.38461538461538464
+    },
+    {
+      "route": "/main/kid/home",
+      "probability": 0.3076923076923077,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/home/home.module.ts"
+    },
+    {
+      "route": "/main/kid/question/:standard/:question/:id",
+      "probability": 0.3076923076923077,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/question/question.module.ts"
+    }
+  ],
+  "/main/kid/rewards/games": [
+    {
+      "route": "/main/kid/home",
+      "probability": 0.23076923076923078,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/home/home.module.ts"
+    },
+    {
+      "route": "/main/parent/home",
+      "probability": 0.15384615384615385,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/parent/parent-home/parent-home.module.ts"
+    },
+    {
+      "route": "",
+      "probability": 0.15384615384615385
+    },
+    {
+      "route": "/intro/login",
+      "probability": 0.07692307692307693,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/earn",
+      "probability": 0.07692307692307693,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/earn/earn.module.ts"
+    },
+    {
+      "route": "/main/kid/friends",
+      "probability": 0.07692307692307693,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/friends/friends.module.ts"
+    },
+    {
+      "route": "/main/kid/question/:standard/:question/:id",
+      "probability": 0.07692307692307693,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/question/question.module.ts"
+    },
+    {
+      "route": "/main/kid/rewards/games/:id",
+      "probability": 0.07692307692307693,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    },
+    {
+      "route": "/main/parent/settings",
+      "probability": 0.07692307692307693,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/parent/settings/settings.module.ts"
+    }
+  ],
+  "/intro/login": [
+    {
+      "route": "",
+      "probability": 0.4444444444444444
+    },
+    {
+      "route": "/main/kid/reports",
+      "probability": 0.3333333333333333,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/reports/reports.module.ts"
+    },
+    {
+      "route": "/intro/parent",
+      "probability": 0.1111111111111111,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/question/:standard/:question/:id",
+      "probability": 0.1111111111111111,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/question/question.module.ts"
+    }
+  ],
+  "/intro/parent/personalize": [
+    {
+      "route": "",
+      "probability": 0.23076923076923078
+    },
+    {
+      "route": "/intro",
+      "probability": 0.15384615384615385,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/intro/parent/info",
+      "probability": 0.15384615384615385,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/home",
+      "probability": 0.15384615384615385,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/home/home.module.ts"
+    },
+    {
+      "route": "/intro/parent",
+      "probability": 0.15384615384615385,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/intro/parent/reward",
+      "probability": 0.07692307692307693,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/question/:standard/:question/:id",
+      "probability": 0.07692307692307693,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/question/question.module.ts"
+    }
+  ],
+  "/main/kid/rewards/badges": [
+    {
+      "route": "/main/kid/earn",
+      "probability": 1,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/earn/earn.module.ts"
+    }
+  ],
+  "/main/parent/home": [
+    {
+      "route": "/main/kid/home",
+      "probability": 0.2857142857142857,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/home/home.module.ts"
+    },
+    {
+      "route": "/main/parent/faq",
+      "probability": 0.2857142857142857,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/parent/faq/faq.module.ts"
+    },
+    {
+      "route": "",
+      "probability": 0.14285714285714285
+    },
+    {
+      "route": "/main/kid/rewards/badges",
+      "probability": 0.14285714285714285,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    },
+    {
+      "route": "/main/kid/rewards/games/:id",
+      "probability": 0.14285714285714285,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    }
+  ],
+  "/intro/parent/reward": [
+    {
+      "route": "",
+      "probability": 0.2
+    },
+    {
+      "route": "/intro/parent",
+      "probability": 0.2,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/intro/parent/personalize",
+      "probability": 0.2,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/home",
+      "probability": 0.2,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/home/home.module.ts"
+    },
+    {
+      "route": "/main/parent/home",
+      "probability": 0.2,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/parent/parent-home/parent-home.module.ts"
+    }
+  ],
+  "/main": [
+    {
+      "route": "",
+      "probability": 1
+    }
+  ],
+  "/main/kid/friends": [
+    {
+      "route": "",
+      "probability": 0.5
+    },
+    {
+      "route": "/main/kid/reports",
+      "probability": 0.5,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/reports/reports.module.ts"
+    }
+  ],
+  "/main/kid/question/:standard/:question/:id": [
+    {
+      "route": "",
+      "probability": 0.28888888888888886
+    },
+    {
+      "route": "/main/kid/home",
+      "probability": 0.24444444444444444,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/home/home.module.ts"
+    },
+    {
+      "route": "/main/kid/question/:standard/:question",
+      "probability": 0.13333333333333333,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/question/question.module.ts"
+    },
+    {
+      "route": "/main/kid/rewards/games/:id",
+      "probability": 0.06666666666666667,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    },
+    {
+      "route": "/main/kid/earn",
+      "probability": 0.044444444444444446,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/earn/earn.module.ts"
+    },
+    {
+      "route": "/main/kid/rewards/games",
+      "probability": 0.044444444444444446,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    },
+    {
+      "route": "/intro/login",
+      "probability": 0.044444444444444446,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/intro/parent/reward/:id",
+      "probability": 0.022222222222222223,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/intro",
+      "probability": 0.022222222222222223,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/intro/parent/personalize",
+      "probability": 0.022222222222222223,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main",
+      "probability": 0.022222222222222223,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/main.module.ts"
+    },
+    {
+      "route": "/main/kid/rewards/badges/:id",
+      "probability": 0.022222222222222223,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    },
+    {
+      "route": "/intro/parent",
+      "probability": 0.022222222222222223,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    }
+  ],
+  "/main/kid/question/:standard/:question": [
+    {
+      "route": "/main/kid/question/:standard/:question/:id",
+      "probability": 0.6666666666666666,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/question/question.module.ts"
+    },
+    {
+      "route": "/intro",
+      "probability": 0.08333333333333333,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/rewards/games",
+      "probability": 0.08333333333333333,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    },
+    {
+      "route": "/main/kid/home",
+      "probability": 0.08333333333333333,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/home/home.module.ts"
+    },
+    {
+      "route": "",
+      "probability": 0.08333333333333333
+    }
+  ],
+  "/main/kid/reports": [
+    {
+      "route": "",
+      "probability": 0.5
+    },
+    {
+      "route": "/intro",
+      "probability": 0.14285714285714285,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/earn",
+      "probability": 0.07142857142857142,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/earn/earn.module.ts"
+    },
+    {
+      "route": "/main/parent/settings",
+      "probability": 0.07142857142857142,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/parent/settings/settings.module.ts"
+    },
+    {
+      "route": "/intro/parent",
+      "probability": 0.07142857142857142,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/rewards/badges",
+      "probability": 0.07142857142857142,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    },
+    {
+      "route": "/intro/login",
+      "probability": 0.07142857142857142,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    }
+  ],
+  "/main/kid/rewards/badges/:id": [
+    {
+      "route": "/main/kid/rewards/games/:id",
+      "probability": 0.5,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    },
+    {
+      "route": "/main/kid/rewards/games",
+      "probability": 0.5,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    }
+  ],
+  "/main/kid/rewards/games/:id": [
+    {
+      "route": "/main/kid/home",
+      "probability": 0.75,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/home/home.module.ts"
+    },
+    {
+      "route": "/intro",
+      "probability": 0.25,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    }
+  ],
+  "/main/parent/faq": [
+    {
+      "route": "",
+      "probability": 0.5
+    },
+    {
+      "route": "/main/kid/home",
+      "probability": 0.5,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/home/home.module.ts"
+    }
+  ],
+  "/main/parent/settings": [
+    {
+      "route": "",
+      "probability": 0.8421052631578947
+    },
+    {
+      "route": "/intro",
+      "probability": 0.10526315789473684,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    },
+    {
+      "route": "/main/kid/rewards/games",
+      "probability": 0.05263157894736842,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"
+    }
+  ],
+  "/main/parent/verify": [
+    {
+      "route": "",
+      "probability": 0.9166666666666666
+    },
+    {
+      "route": "/intro/parent",
+      "probability": 0.08333333333333333,
+      "file": "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"
+    }
+  ]
+}
