@@ -30,10 +30,6 @@ import { BadgesComponent } from './badges/badges.component';
       {
         path: 'badges',
         component: BadgesComponent
-      },
-      {
-        path: 'badges',
-        component: BadgesComponent
       }
     ])
   ],
