@@ -1,20 +1,20 @@
-import { PersonalizeComponent } from './personalize.component';
+import { InfoComponent } from './intro-info.component';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 import { CommonModule } from '@angular/common';
 
 @NgModule({
-  declarations: [PersonalizeComponent],
+  declarations: [InfoComponent],
   imports: [
     CommonModule,
     RouterModule.forChild([
       {
         path: '',
-        component: PersonalizeComponent
+        component: InfoComponent
       }
     ])
   ],
-  bootstrap: [PersonalizeComponent]
+  bootstrap: [InfoComponent]
 })
-export class IntroPersonalizeModule {}
+export class IntroInfoModule {}

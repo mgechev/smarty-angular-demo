@@ -1,4 +1,4 @@
-import { RewardComponent } from './reward.component';
+import { RewardComponent } from './intro-reward.component';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 

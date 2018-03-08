@@ -390,7 +390,7 @@ module.exports = {
       onDetected: false,
       cwd: projectRoot
     }),
-    new ClusterizeChunks(clusters),
+    // new ClusterizeChunks(clusters),
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',

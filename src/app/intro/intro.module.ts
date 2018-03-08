@@ -19,7 +19,7 @@ import { CommonModule } from '@angular/common';
       },
       {
         path: 'parent',
-        loadChildren: './parent/parent.module#IntroParentModule'
+        loadChildren: './intro-parent/intro-parent.module#IntroParentModule'
       }
     ])
   ],

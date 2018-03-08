@@ -1,4 +1,4 @@
-import { ParentComponent } from './parent.component';
+import { ParentComponent } from './intro-parent.component';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
@@ -15,19 +15,19 @@ import { CommonModule } from '@angular/common';
       },
       {
         path: 'personalize',
-        loadChildren: './personalize/personalize.module#IntroPersonalizeModule'
+        loadChildren: './intro-personalize/intro-personalize.module#IntroPersonalizeModule'
       },
       {
         path: 'info',
-        loadChildren: './info/info.module#IntroInfoModule'
+        loadChildren: './intro-info/intro-info.module#IntroInfoModule'
       },
       {
         path: 'reward',
-        loadChildren: './reward/reward.module#IntroRewardModule'
+        loadChildren: './intro-reward/intro-reward.module#IntroRewardModule'
       },
       {
         path: 'reward/:id',
-        loadChildren: './reward/reward.module#IntroRewardModule'
+        loadChildren: './intro-reward/intro-reward.module#IntroRewardModule'
       }
     ])
   ],
