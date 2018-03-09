@@ -390,7 +390,7 @@ module.exports = {
       onDetected: false,
       cwd: projectRoot
     }),
-    // new ClusterizeChunks(clusters),
+    new ClusterizeChunks(clusters),
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
@@ -445,8 +445,8 @@ module.exports = {
       minChunks: 2,
       async: 'common'
     }),
-    new NamedModulesPlugin({}),
-    new RuntimePrefetch(runtime),
+    new NamedLazyChunksWebpackPlugin({}),
+    // new RuntimePrefetch(runtime),
     new AngularCompilerPlugin({
       mainPath: 'main.ts',
       platform: 0,

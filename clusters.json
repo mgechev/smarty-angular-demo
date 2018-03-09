@@ -1,19 +1,24 @@
 {
-  "a": [
-    "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts",
-    "/Users/mgechev/Projects/smarty-demo/src/app/app.module.ts"
-  ],
-  "b": [
+  "0": ["/Users/mgechev/Projects/smarty-demo/src/app/intro/intro.module.ts"],
+  "1": ["/Users/mgechev/Projects/smarty-demo/src/app/intro/intro-parent/intro-parent.module.ts"],
+  "2": [
+    "/Users/mgechev/Projects/smarty-demo/src/app/main/parent/parent-home/parent-home.module.ts",
+    "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/question/question.module.ts",
     "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/earn/earn.module.ts",
-    "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/home/home.module.ts"
+    "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/home/home.module.ts",
+    "/Users/mgechev/Projects/smarty-demo/src/app/main/main.module.ts"
   ],
-  "c": ["/Users/mgechev/Projects/smarty-demo/src/app/main/kid/rewards/rewards.module.ts"],
-  "d": ["/Users/mgechev/Projects/smarty-demo/src/app/main/parent/parent-home/parent-home.module.ts"],
-  "e": ["/Users/mgechev/Projects/smarty-demo/src/app/main/kid/question/question.module.ts"],
-  "f": ["/Users/mgechev/Projects/smarty-demo/src/app/main/kid/reports/reports.module.ts"],
-  "g": ["/Users/mgechev/Projects/smarty-demo/src/app/main/parent/settings/settings.module.ts"],
-  "h": ["/Users/mgechev/Projects/smarty-demo/src/app/main/parent/verify/verify.module.ts"],
-  "i": ["/Users/mgechev/Projects/smarty-demo/src/app/main/parent/faq/faq.module.ts"],
-  "j": ["/Users/mgechev/Projects/smarty-demo/src/app/main/kid/friends/friends.module.ts"],
-  "k": ["/Users/mgechev/Projects/smarty-demo/src/app/main/main.module.ts"]
+  "3": [
+    "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro-parent/intro-personalize/intro-personalize.module.ts",
+    "/Users/mgechev/Projects/smarty-demo/src/app/intro/intro-parent/intro-info/intro-info.module.ts"
+  ],
+  "4": [
+    "/Users/mgechev/Projects/smarty-demo/src/app/main/kid/reports/reports.module.ts",
+    "/Users/mgechev/Projects/smarty-demo/src/app/intro/login/login.module.ts"
+  ],
+  "5": ["/Users/mgechev/Projects/smarty-demo/src/app/intro/intro-parent/intro-reward/intro-reward.module.ts"],
+  "6": ["/Users/mgechev/Projects/smarty-demo/src/app/main/kid/friends/friends.module.ts"],
+  "7": ["/Users/mgechev/Projects/smarty-demo/src/app/main/parent/settings/settings.module.ts"],
+  "8": ["/Users/mgechev/Projects/smarty-demo/src/app/main/parent/faq/faq.module.ts"],
+  "9": ["/Users/mgechev/Projects/smarty-demo/src/app/main/parent/verify/verify.module.ts"]
 }
