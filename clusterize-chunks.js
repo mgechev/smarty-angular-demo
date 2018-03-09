@@ -1,8 +1,3 @@
-const AsyncDependenciesBlock = require('webpack/lib/AsyncDependenciesBlock');
-const ContextElementDependency = require('webpack/lib/dependencies/ContextElementDependency');
-const basename = require('path').basename;
-const webpack = require('webpack');
-
 class ClusterizeChunks {
   constructor(clusters) {
     this.clusters = clusters;
@@ -34,7 +29,7 @@ class ClusterizeChunks {
               continue;
             }
             if (inSameCluster(a, b)) {
-              if (b.integrate(a)) {
+              if (b.integrate(a, 'clusterize-chunks')) {
                 chunks.splice(chunks.indexOf(a), 1);
                 return true;
               }

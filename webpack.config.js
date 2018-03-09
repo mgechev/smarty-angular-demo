@@ -446,7 +446,7 @@ module.exports = {
       async: 'common'
     }),
     new NamedLazyChunksWebpackPlugin({}),
-    // new RuntimePrefetch(runtime),
+    new RuntimePrefetch({ graph: runtime }),
     new AngularCompilerPlugin({
       mainPath: 'main.ts',
       platform: 0,

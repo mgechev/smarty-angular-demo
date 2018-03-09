@@ -1,4 +1,8 @@
-(function(history, map, threshold) {
+(function(history, basepath, graph, thresholds) {
+  const polyfillConnection = {
+    effectiveType: '3g'
+  };
+
   const matchRoute = (route, declaration) => {
     const routeParts = route.split('/');
     const declarationParts = declaration.split('/');
@@ -23,19 +27,20 @@
   };
 
   const handleNavigationChange = route => {
-    const current = Object.keys(map)
+    const current = Object.keys(graph)
       .filter(matchRoute.bind(null, route))
       .pop();
     if (!current) {
       return;
     }
-    for (const route of map[current]) {
-      if (route.probability < threshold) {
+    const c = navigator.connection || polyfillConnection
+    for (const route of graph[current]) {
+      if (route.probability < thresholds[c.effectiveType]) {
         continue;
       }
       if (route.chunk) {
         console.log('Prefetchink', route.chunk);
-        import('/' + route.chunk);
+        import(basepath + route.chunk);
       } else {
         console.log('Cannot find chunk for', route.route);
       }
@@ -52,4 +57,4 @@
     handleNavigationChange(arguments[2]);
     return pushState.apply(history, arguments);
   };
-})(window.history, __PREFETCH_MAP__, 0.2);
+})(window.history, '<%= BASE_PATH %>', <%= GRAPH %>, <%= THRESHOLDS %>);
