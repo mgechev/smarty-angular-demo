@@ -36,8 +36,8 @@ class ClusterizeChunks {
             if (inSameCluster(a, b)) {
               if (b.integrate(a)) {
                 chunks.splice(chunks.indexOf(a), 1);
+                return true;
               }
-              return true;
             }
           }
         }
